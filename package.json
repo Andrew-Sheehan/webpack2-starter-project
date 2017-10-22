@@ -1,0 +1,23 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "A bare-bones webpack 2.0 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified.\" && exit 1",
+    "start": "webpack-dev-server --progress --colors"
+  },
+  "dependencies": {
+    "webpack": "3.8.1",
+    "webpack-dev-server": "2.9.3",
+    "webpack-validator": "3.0.0",
+    "css-loader": "0.28.7",
+    "style-loader": "0.19.0"
+  },
+  "keywords": [
+    "webpack",
+    "example"
+  ],
+  "author": "Andrew Sheehan",
+  "license": "MIT"
+}
